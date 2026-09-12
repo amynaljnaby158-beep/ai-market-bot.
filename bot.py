@@ -1,6 +1,6 @@
 from telegram import Bot
 bot = Bot("8893640950:AAH9sFZJuO4KJLiswD2jRGHBl2p_FqMDigo")
-print("البوت جاهز")
+import os
 from telegram.ext import Application, CommandHandler
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 async def start(update, context):
